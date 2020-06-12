@@ -1,0 +1,52 @@
+
+
+body{
+background-color: salmon;
+text-align: center;
+}
+ 
+h1{    
+text-align: center;
+color: #614051;
+font-size: 50px;
+font-style: bold;
+padding: 90px;
+
+
+}
+h2{
+color:#614051;
+font-size: 40px;
+padding: 70px;
+
+}
+
+h3{
+color:#614051;
+
+}
+
+div{
+text-align: center;
+}
+
+img{
+align-items: center;
+height: 200px;
+width: 200px;
+border: black;
+border-color: black;
+border-width: 100px;
+}
+div{
+text-align: center;
+position: center;
+
+}
+footer{
+ 
+        color: #614051;
+        text-align: center;
+        padding: 10px;
+      }
+
