@@ -1,28 +1,29 @@
 
 
 body{
-background-color: salmon;
-text-align: center;
+background-color: #f16059;
 }
  
 h1{    
 text-align: center;
-color: #614051;
-font-size: 50px;
-font-style: bold;
-padding: 90px;
-
-
+color: black;
+font-family: 'Bungee', cursive;
+padding: 90px
 }
-h2{
-color:#614051;
-font-size: 40px;
-padding: 70px;
 
+
+h2{
+color:black;
+font-size: 40px;
+font-family: 'Bungee', cursive;
+padding: 70px;
+text-align: center;
 }
 
 h3{
-color:#614051;
+text-align: center;
+color: black;
+font-family: 'Bungee', cursive;
 
 }
 
@@ -38,6 +39,7 @@ border: black;
 border-color: black;
 border-width: 100px;
 }
+
 div{
 text-align: center;
 position: center;
@@ -45,8 +47,9 @@ position: center;
 }
 footer{
  
-        color: #614051;
+        color:  black;
         text-align: center;
+        font-family: 'Bungee', cursive;
         padding: 10px;
       }
 

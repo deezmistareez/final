@@ -14,21 +14,21 @@
 
 
     
-//var randomImage = new Array(); 
+//var randomImage = [];
 
   //here is where i added the images
-  // randomImage[0] = "https://i.imgur.com/t1WxZTS.jpg"; 
-   //randomImage[1] = "https://i.imgur.com/GEcF0Zz.jpg"; 
-  // randomImage[2] = "https://i.imgur.com/mwisRGi.jpg";
-   //randomImage[3] = "https://i.imgur.com/bYBl8CW.jpg";
-   //randomImage[4] = "https://i.imgur.com/mPFYdkb.jpg";
+  //randomImage[0] = "https://i.imgur.com/t1WxZTS.jpg"; 
+  //randomImage[1] = "https://i.imgur.com/GEcF0Zz.jpg"; 
+  //randomImage[2] = "https://i.imgur.com/mwisRGi.jpg";
+  //randomImage[3] = "https://i.imgur.com/bYBl8CW.jpg";
+  //randomImage[4] = "https://i.imgur.com/mPFYdkb.jpg";
     
 
 //function randomImage() { 
-    //var number = Math.floor(Math.random()*randomImage.length);
-    //document.write('<img src="'+randomImage[number]+'" />');
+  //  var number = Math.floor(Math.random()*randomImage.length);
+   // document.write('<img src="'+randomImage[number]+'" />');
     //}
-  // randomImage()
+  //randomImage()
 
     //creating link and naming it myShoes
 
@@ -119,18 +119,41 @@
 
 //}
 
+
+
+//function changeImage() {
+
+  //if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/bYBl8CW.jpg") 
+ // {
+ //document.getElementById("imgClickAndChange").src = "https://i.imgur.com/GEcF0Zz.jpg";
+ //}
+ //else 
+ //{
+    // document.getElementById("imgClickAndChange").src = "https://i.imgur.com/bYBl8CW.jpg";
+
+// }
+//}
 function changeImage() {
 
-  if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/bYBl8CW.jpg") 
-  {
-      document.getElementById("imgClickAndChange").src = "https://i.imgur.com/GEcF0Zz.jpg";
-  }
-  
-  else 
-  {
-      document.getElementById("imgClickAndChange").src = "https://i.imgur.com/bYBl8CW.jpg";
-  }
+if (document.getElementById("imgClickAndChange").src == "https://i.imgur.com/bYBl8CW.jpg") 
+{ 
+    document.getElementById("imgClickAndChange").src = "https://i.imgur.com/GEcF0Zz.jpg"
 }
+else if (document.getElementById("imgClickAndChange").src = "https://i.imgur.com/GEcF0Zz.jpg") { 
+   
+
+ document.getElementById("imgClickAndChange").src = "https://i.imgur.com/mwisRGi.jpg"
+
+} 
+else if (document.getElementById("imgClickAndChange").src = "https://i.imgur.com/mwisRGi.jpg") { 
+  
+document.getElementById("imgClickAndChange").src = "https://i.imgur.com/GEcF0Zz.jpg"
+} 
+else  { document.getElementById("imgClickAndChange").src == "https://i.imgur.com/bYBl8CW.jpg"
+}
+
+}
+
 
 //if (document.getElementById("adidas").src == "https://i.imgur.com/t1WxZTS.jpg") 
 //{
@@ -163,4 +186,4 @@ function changeImage() {
  //image.src='https://i.imgur.com/bYBl8CW.jpg';
  //image_tracker='orange';
  //}
- ////
+
